@@ -113,9 +113,11 @@ into the {body} of the default.hbs template --}}
             {{#if @labs.members}}
                 {{> subscribe-form}}
             {{/if}}
-
-            <script defer src="https://commento.lex.la/js/commento.js"></script>
-            <div id="commento"></div>
+    
+            <section class="post-full-comments">
+                <script defer src="https://commento.lex.la/js/commento.js"></script>
+                <div id="commento"></div>	
+            </section>
 
         </article>
 
